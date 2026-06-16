@@ -19,7 +19,6 @@ header{
 h1{
     color: #058D05;
     font-size: 18px;
-    padding-left: 120px;
 }
 
 .links-header{
@@ -34,7 +33,7 @@ nav a{
     color: white; 
 }
 
-button{
+.button-header{
     border: none;
     height: 35px;
     width: 100%;
@@ -65,4 +64,153 @@ main p{
     background: linear-gradient(to right, #00FF11, #0F631B);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#sobre img{
+    width: 100%;
+    max-width: 360px;
+    margin: 120px 140px 96px 78px;
+}
+
+.texto-sobre{
+    margin: 120px 230px 178px 0;
+    width: 100%;
+    max-width: 617px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.texto-sobre h2{
+    font-family: "Ubuntu-Mono" sans-serif;
+    background: linear-gradient(to right, rgba(27, 108, 0, 1) 0%, rgba(113, 233, 104, 0.765) 50%, rgba(8, 101, 22, 0.53) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre p{
+    margin-top: 33px;
+    color: white;
+}
+
+#sobre{
+    display: flex;
+}
+
+
+#features{
+    text-align: center;
+}
+
+#features h2{
+    margin: 40px 0 70px 0;
+    color: #1B6C00;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 436px;
+    background: rgba(8, 101, 22, 0.17);
+}
+.features-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    margin: 0 auto;
+}
+
+.box{
+    height: 184px;
+    width: 100%;
+    max-width: 237px;
+    background: rgba(8, 101, 22, 0.5);
+    border: solid 1px rgba(8, 101, 22, 0.5);
+    padding: 0 20px;
+}
+
+.box h3{
+    margin-top: 27px;
+    color: #0BBA0B;
+    font-size: 20px;
+}
+
+.box p{
+    font-size: 12px;
+    margin-top: 33px;
+    font-family: "Montserrat";
+    color: white;
+}
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+}
+
+#galeria h2{
+    margin: 40px auto 85px auto;
+    color: #1B6C00;
+    font-size: 18px;
+}
+
+.imagens-galeria-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagens-galeria-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.personagem-1, .personagem-2{
+    height: 404px;
+    width: 100%;
+    max-width: 404px;
+    margin-top: 36px;
+}
+
+.captura-de-tela-1{
+    width: 100%;
+    max-width: 900px;
+}
+
+.captura-de-tela-2, .captura-de-tela-3{
+    width: 100%;
+    max-width: 875px;
+    margin-top: 30px;
+}
+
+.final{
+    display: flex;
+    margin: 98px auto;
+}
+
+.texto-final{
+    background: linear-gradient(to right, rgba(151, 207, 146, 1) 0%, rgba(151, 207, 146, 1) 50%, rgba(122, 253, 112, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin: 0 130px 115px 62px;
+}
+
+.imagem-final{
+    height:  387px;
+    width: 100%;
+    max-width: 695px;
+    border-radius: 15px;
+}
+
+.button-final{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    max-width: 250px;
+    background: linear-gradient(to right, #1B6C00 0%, #199410 50%, #0D3600 100%);
+    color: #112539;
+    font-size: 16px;
 }
