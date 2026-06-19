@@ -19,6 +19,7 @@ header{
 h1{
     color: #058D05;
     font-size: 18px;
+    margin: 0 0 0 120px;
 }
 
 .links-header{
@@ -56,8 +57,9 @@ main{
 
 main p{
     color: white;
-    margin-top: 660px;
+    margin-top: 670px;
     font-size: 24px;
+    font-family: "Syncopate" sans-serif;
 }
 
 .palavra-gradiente{
@@ -68,7 +70,7 @@ main p{
 
 #sobre img{
     width: 100%;
-    max-width: 360px;
+    max-width: 22rem;
     margin: 120px 140px 96px 78px;
 }
 
@@ -149,7 +151,7 @@ main p{
 }
 
 #galeria h2{
-    margin: 40px auto 85px auto;
+    margin: 85px auto 45px auto;
     color: #1B6C00;
     font-size: 18px;
 }
@@ -158,6 +160,7 @@ main p{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin: 0 60px;
 }
 
 .imagens-galeria-2{
@@ -167,26 +170,27 @@ main p{
 }
 
 .personagem-1, .personagem-2{
-    height: 404px;
+    height: 25rem;
     width: 100%;
-    max-width: 404px;
+    max-width: 25rem;
     margin-top: 36px;
 }
 
 .captura-de-tela-1{
     width: 100%;
-    max-width: 900px;
+    max-width: 48rem;
 }
 
 .captura-de-tela-2, .captura-de-tela-3{
     width: 100%;
-    max-width: 875px;
+    max-width: 50rem;
     margin-top: 30px;
 }
 
 .final{
     display: flex;
     margin: 98px auto;
+    justify-content: center;
 }
 
 .texto-final{
@@ -194,13 +198,14 @@ main p{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    margin: 0 130px 115px 62px;
+    margin: 0 350px 225px 0;
+    font-size: 40px;
 }
 
 .imagem-final{
-    height:  387px;
+    height: 28rem;
     width: 100%;
-    max-width: 695px;
+    max-width: 50rem;
     border-radius: 15px;
 }
 
@@ -209,8 +214,46 @@ main p{
     border-radius: 5px;
     height: 40px;
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     background: linear-gradient(to right, #1B6C00 0%, #199410 50%, #0D3600 100%);
     color: #112539;
     font-size: 16px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: rgba(1, 17, 4, 0.53);
+    justify-content: center;
+    text-align: center;
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    gap: 30px;
+}
+
+.links-footer a{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.imagem-footer{
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto 20px auto;
+}
+
+.texto-footer{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+#palavra-gradiente-footer{
+    color: #0EC800;
 }
